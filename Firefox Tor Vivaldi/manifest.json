@@ -1,1 +1,11 @@
-
+{
+    "name": "Reklam Engelleyici",
+    "version": "1.0",
+    "description": "İleri Düzey Reklam Engelleyici",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+   
+    },
+    "manifest_version": 2
+}
